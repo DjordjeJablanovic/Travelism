@@ -6,6 +6,11 @@ import img5 from './assets/slider5.png'
 import img6 from './assets/slider6.png'
 import img7 from './assets/slider7.png'
 import img8 from './assets/slider8.png'
+import img9 from './assets/slider9.png'
+import img10 from './assets/slider10.png'
+import img11 from './assets/slider11.png'
+import img12 from './assets/slider12.png'
+import img13 from './assets/slider13.png'
 import {MdDateRange} from 'react-icons/md'
 import {BsFillPeopleFill} from 'react-icons/bs'
 import {GoLocation} from 'react-icons/go'
@@ -133,10 +138,50 @@ export const recommendedData = [
     {
         id: 4,
         category:'popular',
-        image: img8,
+        image: img4,
         place: 'Kiyomizu-dera',
         locationIcon: <GoLocation/>,
         location: 'Eastern Kyoto, Japan',
+        rating: '4.8',
+        starIcon:<AiFillStar/>,
+    },
+    {
+        id: 5,
+        category:'popular',
+        image: img3,
+        place: 'Paro Taktsang',
+        locationIcon: <GoLocation/>,
+        location: 'Butan',
+        rating: '4.8',
+        starIcon:<AiFillStar/>,
+    },
+    {
+        id: 6,
+        category:'culrutal',
+        image: img2,
+        place: 'Boudhanath Stupa',
+        locationIcon: <GoLocation/>,
+        location: 'Nepal',
+        rating: '4.8',
+        starIcon:<AiFillStar/>,
+    },
+    {
+        id: 7,
+        category:'adventure',
+        image: img1,
+        place: 'Marina Bay Sands',
+        locationIcon: <GoLocation/>,
+        location: 'Singapure',
+        rating: '4.8',
+        starIcon:<AiFillStar/>,
+    },
+    {
+        id: 8,
+        category:'beach',
+        image: img13,
+        place: 'Bromo Tengger Semeru',
+        locationIcon: <GoLocation/>,
+        location: 'Indonesia',
         rating: '4.8',
         starIcon:<AiFillStar/>,
     },

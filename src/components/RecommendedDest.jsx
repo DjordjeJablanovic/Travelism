@@ -16,16 +16,16 @@ const RecommendedDest = () => {
   return (
     <section className='w-full max-w-[1920px] mx-auto px-10 md:px-20 lg:py-20 flex flex-col justify-center items-center lg:items-start pb-20 lg:mt-0'>
       <div className='text-[48px] md:text-[64px] font-bold px-5 mb-2'>
-        <h2 className='font-primary'>Recommended destination</h2>
+        <h2 className='font-primary'>Recommended Destinations</h2>
       </div>
       {/* sort */}
       <div>
         <div className='flex lg:px-5 lg:text-[18px] mb-6'>
-          <button onClick={() => setCat(recommendedData)} className='px-5 py-3 rounded-full' >All</button>
-          <button onClick={() => filterType('adventure')} className='px-5 py-3 rounded-full' >Adventure</button>
-          <button onClick={() => filterType('beach')} className='px-5 py-3 rounded-full' >Beach</button>
-          <button onClick={() => filterType('cultural')} className='px-5 py-3 rounded-full' >Cultural</button>
-          <button onClick={() => filterType('popular')} className='px-5 py-3 rounded-full' >Popular</button>
+          <button onClick={() => setCat(recommendedData)} className='px-5 py-3 rounded-full bg-black text-white ' >All</button>
+          <button onClick={() => filterType('adventure')} className='px-5 py-3 rounded-full bg-black text-white ml-1' >Adventure</button>
+          <button onClick={() => filterType('beach')} className='px-5 py-3 rounded-full bg-black text-white ml-1' >Beach</button>
+          <button onClick={() => filterType('cultural')} className='px-5 py-3 rounded-full bg-black text-white ml-1' >Cultural</button>
+          <button onClick={() => filterType('popular')} className='px-5 py-3 rounded-full bg-black text-white ml-1' >Popular</button>
         </div>
       </div>
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4'>
