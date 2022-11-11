@@ -8,7 +8,7 @@ import photoThree from '../assets/exploreThree.png'
 
 const Explore = () => {
   return (
-    <section className='w-full max-w-[1920px] mx-auto lg:py-5 px-1 mt-10 md:mt-0 md:px-10 '>
+    <section className='w-full max-w-[1920px] mx-auto lg:py-5 px-1 mt-10 md:mt-10 lg:mt-0 md:px-10 '>
         <div className='flex flex-col lg:flex-row items-center justify-around'>
             {/* left side */}
             <div className=' flex flex-col items-center lg:items-start justify-center '>

@@ -4,7 +4,7 @@ import {AiFillCaretDown, AiOutlineSearch} from 'react-icons/ai'
 
 const Hero = () => {
   return (
-    <section className='w-full max-w-[1920px] mx-auto h-[100vh]  min-h-[300px] heroBg relative'>
+    <section className='w-full max-w-[1920px] mx-auto md:pb-10 lg:pb-28  min-h-[300px] heroBg relative'>
         {/* overlay */}
         <div className='w-full h-full bg-black/10 absolute'>
         </div>
