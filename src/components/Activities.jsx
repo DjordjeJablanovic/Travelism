@@ -15,7 +15,7 @@ const Activities = () => {
        </div>
        <div className='flex flex-col lg:flex-row justify-center lg:px-20 items-center w-full'>
         {/* left */}
-        <div className='relative  md:w-auto  hover:scale-105 duration-300 rounded-2xl'>
+        <div className='relative  md:w-auto  hover:scale-95 duration-300 rounded-2xl'>
           {/* overlay */}
           <img src={chillout} alt="chillout"/>
           <div className='absolute bottom-[20px] lg:bottom-[40px] left-[20px] lg:left-[40px] z-20'>
@@ -26,7 +26,7 @@ const Activities = () => {
         {/* right */}
         <div>
           {/* surfing */}
-          <div className='relative  flex justify-center mx-auto lg:px-7 my-3 lg:my-0 hover:scale-105  duration-300'>
+          <div className='relative  flex justify-center mx-auto lg:px-7 my-3 lg:my-0 hover:scale-95  duration-300'>
             <img src={surfing} alt="surf" className='w-full' />
             <div className='absolute bottom-[20px] lg:bottom-[40px] left-[20px] lg:left-[40px] z-20'>
               <h3 className='text-[30px] lg:text-[42px] text-white font-bold'>Surfing</h3>
@@ -36,7 +36,7 @@ const Activities = () => {
           {/* extreme and camping */}
           <div className='flex flex-row  justify-between w-full lg:px-7 xl:w-full mx-auto lg:mt-3'>
             {/* extreme */}
-            <div className='relative hover:scale-105 duration-300 '>
+            <div className='relative hover:scale-95 duration-300 '>
               <img src={extreme} alt="extreme" />
               <div className='absolute bottom-[10px] lg:bottom-[40px] left-[20px] z-20'>
                 <h3 className='text-[20px] lg:text-[42px] text-white font-bold'>Extreme</h3>
@@ -44,7 +44,7 @@ const Activities = () => {
               </div>
             </div>
             {/* camping */}
-            <div className='relative lg:ml-3 hover:scale-105 duration-300'>
+            <div className='relative lg:ml-3 hover:scale-95 duration-300'>
               <img src={camping} alt="camping" />
               <div className='absolute bottom-[10px] lg:bottom-[40px] left-[20px] z-20'>
                 <h3 className='text-[20px] lg:text-[42px] text-white font-bold'>Camping</h3>
