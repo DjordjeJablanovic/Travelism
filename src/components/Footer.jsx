@@ -1,13 +1,13 @@
 import React from 'react'
 import logo from '../assets/Logo.png'
-import{BsFillTelephoneFill} from 'react-icons/bs'
+import{BsFillTelephoneFill, BsFacebook, BsTwitter, BsReddit,BsInstagram } from 'react-icons/bs'
 import{CiLocationOn} from 'react-icons/ci'
 import{AiOutlineMail} from 'react-icons/ai'
 
 
 const Footer = () => {
   return (
-    <section className='w-full flex flex-col max-w-[1920px] mx-auto lg:px-20 bg-active py-20 px-3 text-white'>
+    <section className='w-full flex flex-col max-w-[1920px] mx-auto lg:px-20 bg-active pt-20 pb-10 px-3 text-white'>
         <div className='flex flex-col md:flex-row '>
             {/* left side */}
             <div className='max-w-[350px] flex flex-col'>
@@ -55,8 +55,23 @@ const Footer = () => {
             </div>
         </div>
         {/* copyright */}
-        <div>
-            COPYRIGHT
+        <div className='mt-5 py-5 border-t border-gray-700 '>
+            <div className='flex flex-col md:flex-row  justify-between h-[100px] w-full'>
+                {/* left / copyright */}
+                <div className='flex flex-row'>
+                    <p >© Copyrights 2021 Templates Jungle. Designed by <span className='font-semibold'>Templates Jungle.</span></p>
+                </div>
+                {/* right / socials */}
+                <div>
+                    <div className='flex flex-row items-center'>
+                        <p className='font-semibold'>Social Links :</p>
+                        <a href="https://www.facebook.com/" target={'_blank'} rel="noreferrer"><BsFacebook size={20} className='ml-4'/></a>
+                        <a href="https://twitter.com/" target={'_blank'} rel="noreferrer"><BsTwitter size={20} className='ml-4'/></a>
+                        <a href="https://www.reddit.com/" target={'_blank'} rel="noreferrer"><BsReddit size={20} className='ml-4'/></a>
+                        <a href="https://www.instagram.com/" target={'_blank'} rel="noreferrer"><BsInstagram size={20} className='ml-4'/></a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
   )
