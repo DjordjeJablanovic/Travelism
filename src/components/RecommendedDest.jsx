@@ -19,13 +19,13 @@ const RecommendedDest = () => {
         <h2 className='font-primary'>Recommended Destinations</h2>
       </div>
       {/* sort */}
-      <div>
-        <div className='flex lg:px-5 lg:text-[18px] mb-6'>
-          <button onClick={() => setCat(recommendedData)} className='px-5 py-3 rounded-full bg-black text-white ' >All</button>
-          <button onClick={() => filterType('adventure')} className='px-5 py-3 rounded-full bg-black text-white ml-1' >Adventure</button>
-          <button onClick={() => filterType('beach')} className='px-5 py-3 rounded-full bg-black text-white ml-1' >Beach</button>
-          <button onClick={() => filterType('cultural')} className='px-5 py-3 rounded-full bg-black text-white ml-1' >Cultural</button>
-          <button onClick={() => filterType('popular')} className='px-5 py-3 rounded-full bg-black text-white ml-1' >Popular</button>
+      <div className='w-[80%]'>
+        <div className='flex flex-col md:flex-row lg:px-5 lg:text-[18px] mb-6'>
+          <button onClick={() => setCat(recommendedData)} className='px-5 py-3 my-1 md:my-0 rounded-full bg-black text-white ' >All</button>
+          <button onClick={() => filterType('adventure')} className='px-5 py-3 my-1 md:my-0 rounded-full bg-black text-white ml-1' >Adventure</button>
+          <button onClick={() => filterType('beach')} className='px-5 py-3 my-1 md:my-0 rounded-full bg-black text-white ml-1' >Beach</button>
+          <button onClick={() => filterType('cultural')} className='px-5 py-3 my-1 md:my-0 rounded-full bg-black text-white ml-1' >Cultural</button>
+          <button onClick={() => filterType('popular')} className='px-5 py-3 my-1 md:my-0 rounded-full bg-black text-white ml-1' >Popular</button>
         </div>
       </div>
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4'>
