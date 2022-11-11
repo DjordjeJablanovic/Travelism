@@ -21,7 +21,7 @@ const TopReviews = () => {
                     return (
                         <SwiperSlide key={index}>
                         <div  className='flex flex-col items-start lg:w-full px-14 md:px-20 justify-center mx-auto'>
-                                <h2 className='text-[48px] lg:text-[64px] leading-[70px] font-bold py-16 lg:py-20 font-primary'>Top Traveler Reviews</h2>
+                                <h2 className='text-[48px] lg:text-[64px] leading-[70px] font-bold py-16 lg:py-20 font-primary'>Review By {userName}</h2>
                             <div className='flex flex-row items-center'>
                                 {rating}
                                 <div className='text-yellow-500 ml-2'>{ratingIcon}</div>
@@ -31,7 +31,7 @@ const TopReviews = () => {
                             {/* user image */}
                             <div className='py-5 mb-10 lg:mb-0 flex flex-row items-center justify-between w-full md:w-[500px]'>
                                 <div className='flex flex-row items-center'>
-                                    <img src={userImg} alt="user" />
+                                    <img src={userImg} alt="user" className='h-[60px] rounded-full'/>
                                     <div className='ml-5'>
                                         <h4>{userName}</h4>
                                         <p className='text-gray-500'>{userLocation}</p>

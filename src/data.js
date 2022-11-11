@@ -18,6 +18,9 @@ import stickerOne from './assets/001-online-booking.png'
 import stickerTwo from './assets/003-shield.png'
 import stickerThree from './assets/005-ticket.png'
 import stickerFour from './assets/006-counsel.png'
+import reviewOne from './assets/revOne.jpg'
+import reviewTwo from './assets/revTwo.jpg'
+import reviewThree from './assets/revThree.jpg'
 
 export const ChooseUsData = [
     {
@@ -70,7 +73,7 @@ export const reviewsData = [
         rating:'5.0',
         title: 'Amazing Customer Service',
         comment: 'Sed dignissim nisl pellentesque ut sed dapibus nam. Consectetur pellentesque nulla pretium, elit, elementum, sapien. Sit semper eget hendrerit ornare magna aliquet sere. Nec aliquet odio turpis pretium ut. Ac elit ac non, in sagittis netus ac in. Purus suada sed neque sed ut eu auctor mi enim euismod egestas enim gravida posuere.',
-        userImg: userImgOne,
+        userImg: reviewOne,
         userName: 'Nicholas Watson',
         userLocation: 'United States',
     },
@@ -80,7 +83,7 @@ export const reviewsData = [
         rating:'4.8',
         title: 'Comment Number Two',
         comment: 'Ded dignissim nisl pellentesque ut sed dapibus nam. Consectetur pellentesque nulla pretium, elit, elementum, sapien. Sit semper eget hendrerit ornare magna aliquet sere. Nec aliquet odio turpis pretium ut. Ac elit ac non, in sagittis netus ac in. Purus suada sed neque sed ut eu auctor mi enim euismod egestas enim gravida posuere.',
-        userImg: userImgOne,
+        userImg: reviewTwo,
         userName: 'Jack Miller',
         userLocation: 'United Kingdom',
     },
@@ -90,7 +93,7 @@ export const reviewsData = [
         rating:'4.9',
         title: 'Services Very Good',
         comment: 'Seed dignissim nisl pellentesque ut sed dapibus nam. Consectetur pellentesque nulla pretium, elit, elementum, sapien. Sit semper eget hendrerit ornare magna aliquet sere. Nec aliquet odio turpis pretium ut. Ac elit ac non, in sagittis netus ac in. Purus suada sed neque sed ut eu auctor mi enim euismod egestas enim gravida posuere.',
-        userImg: userImgOne,
+        userImg: reviewThree,
         userName: 'Mickey Mouse',
         userLocation: 'Babilon',
     },

@@ -3,8 +3,8 @@ import {ChooseUsData} from '../data'
 
 const ChooseUs = () => {
   return (
-    <section className='w-full max-w-[1920px] py-5 md:py-20 mx-auto px-5 md:px-28'>
-      <div className='w-full flex flex-col'>
+    <section className='w-full max-w-[1920px] py-5 md:py-20 mx-auto px-5 md:px-20 xl:px-28'>
+      <div className='w-full flex flex-col items-center lg:items-start'>
         <div>
           <h2 className='text-[36px] text-center md:text-start px-0 md:px-16 md:text-[64px] font-primary'>Why To Choose Us?</h2>
         </div>
@@ -12,7 +12,7 @@ const ChooseUs = () => {
             {ChooseUsData.map((item,index)=>{
               const {image, title, context} = item
               return (
-                <div key={index} className='flex flex-row max-w-[390px] items-center py-16 shadow-md'>
+                <div key={index} className='flex flex-row max-w-[390px] lg:mr-5 items-center py-16 shadow-md'>
                   <div>
                     <img src={image} alt="/" />
                   </div>

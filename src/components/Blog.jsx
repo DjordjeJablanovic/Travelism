@@ -19,7 +19,7 @@ const Blog = () => {
                     const {image, date, title} = item;
                     return(
                         <div key={index} className='my-1 lg:my-0 shadow-md'>
-                            <div className='flex flex-row items-center py-3 hover:scale-105 duration-300'>
+                            <div className='flex flex-row items-center py-3 hover:scale-95 duration-300'>
                                 {/* left side */}
                                 <div>
                                     <img src={image} alt="/"/>
